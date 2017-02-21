@@ -5,7 +5,7 @@
 static LGATTUUID test_uuid("B4B4B4B4-B4B4-B4B4-B4B4-B4B4B4B4B4B5");
 
 LGATTClient c;
-
+int tom;
 void setup() {
     delay(5000);
     Serial.begin(9600); 
